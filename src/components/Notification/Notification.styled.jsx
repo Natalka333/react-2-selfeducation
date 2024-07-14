@@ -9,4 +9,4 @@ export const Message = styled.p`
   border-radius: 5px;
   margin: 20px 0;
   text-align: center;
-`;
+`

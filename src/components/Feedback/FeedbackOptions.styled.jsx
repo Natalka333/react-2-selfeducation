@@ -1,4 +1,3 @@
-
 import styled from '@emotion/styled';
 
 export const ContainerFeedback = styled.div`
@@ -6,7 +5,7 @@ export const ContainerFeedback = styled.div`
   justify-content: center;
   gap: 10px;
   margin: 20px 0;
-`;
+`
 
 export const ButtonFeedback = styled.button`
   padding: 10px 20px;
@@ -30,4 +29,4 @@ export const ButtonFeedback = styled.button`
     outline: none;
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
   }
-`;
+`
