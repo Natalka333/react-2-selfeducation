@@ -1,8 +1,9 @@
 import Section from "./Section/Section";
 import FeedbackOptions from "./Feedback/FeedbackOptions";
 import Statistics from "./Statistics/Statistics";
+import Notification from "./Notification/Notification";
 import React from "react";
-import Notiflix from "notiflix";
+
 
 
 class App extends React.Component {
@@ -38,9 +39,10 @@ class App extends React.Component {
       <div>
 
         <Section title='Please leave feedback' >
-
-          <FeedbackOptions handleClickFeedback={this.handleClickFeedback} options={options} />
-
+          <FeedbackOptions
+            handleClickFeedback={this.handleClickFeedback}
+            options={options}
+          />
         </Section>
         <Section title='Statistics'>
           {totalFeedback !== 0 ? (
@@ -50,19 +52,9 @@ class App extends React.Component {
               bad={bad}
               total={totalFeedback}
               positiveFeedback={positiveFeedback}
-            />) : (Notiflix.message('There is no feedback'))
+            />) : (<Notification message="There is no feedback" />)
           }
         </Section>
-
-
-        <p>Good</p>
-        <p>Neutral</p>
-        <p>Bad</p>
-
-        <p>Total</p>
-
-        <p>Positive feedback %</p>
-
 
       </div>
     )
