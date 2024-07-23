@@ -33,6 +33,8 @@ class App extends React.Component {
     const totalFeedback = this.countTotalFeedback();
     const positiveFeedback = this.persentPositiveFeedback();
     const options = Object.keys(this.state);
+    console.log(options);
+
 
 
     return (
