@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-2-selfeducation/static/css/main.7acaea2f.css",
-    "main.js": "/react-2-selfeducation/static/js/main.9b84b45c.js",
+    "main.js": "/react-2-selfeducation/static/js/main.1469afd4.js",
     "index.html": "/react-2-selfeducation/index.html",
     "main.7acaea2f.css.map": "/react-2-selfeducation/static/css/main.7acaea2f.css.map",
-    "main.9b84b45c.js.map": "/react-2-selfeducation/static/js/main.9b84b45c.js.map"
+    "main.1469afd4.js.map": "/react-2-selfeducation/static/js/main.1469afd4.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.9b84b45c.js"
+    "static/js/main.1469afd4.js"
   ]
 }
